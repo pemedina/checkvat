@@ -8,12 +8,12 @@ class checkVatService extends SoapClient
 {
 
     private static $classmap = array(
-        'checkVat'               => 'checkVat',
-        'checkVatResponse'       => 'checkVatResponse',
-        'checkVatApprox'         => 'checkVatApprox',
-        'checkVatApproxResponse' => 'checkVatApproxResponse',
-        'companyTypeCode'        => 'companyTypeCode',
-        'matchCode'              => 'matchCode',
+        'checkVat'               => 'CheckVat\checkVat',
+        'checkVatResponse'       => 'CheckVat\checkVatResponse',
+        'checkVatApprox'         => 'CheckVat\checkVatApprox',
+        'checkVatApproxResponse' => 'CheckVat\checkVatApproxResponse',
+        'companyTypeCode'        => 'CheckVat\companyTypeCode',
+        'matchCode'              => 'CheckVat\matchCode',
     );
 
     public function checkVatService(
