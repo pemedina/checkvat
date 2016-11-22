@@ -7,14 +7,14 @@ use SoapClient;
 class checkVatService extends SoapClient
 {
 
-    private static $classmap = array(
+    private static $classmap = [
         'checkVat'               => 'CheckVat\checkVat',
         'checkVatResponse'       => 'CheckVat\checkVatResponse',
         'checkVatApprox'         => 'CheckVat\checkVatApprox',
         'checkVatApproxResponse' => 'CheckVat\checkVatApproxResponse',
         'companyTypeCode'        => 'CheckVat\companyTypeCode',
         'matchCode'              => 'CheckVat\matchCode',
-    );
+    ];
 
     public function checkVatService(
         $wsdl = "http://ec.europa.eu/taxation_customs/vies/checkVatService.wsdl",
