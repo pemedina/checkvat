@@ -1,21 +1,16 @@
 <?php
 
-namespace CheckVat {
+namespace CheckVat;
 
-    class checkVat
-    {
-        public $countryCode;
-        public $vatNumber;
-    }
+class checkVat
+{
+    /**
+     * @var string $countryCode
+     */
+    public $countryCode;
+
+    /**
+     * @var string $vatNumber
+     */
+    public $vatNumber;
 }
-
-
-
-
-
-
-
-
-
-
-
