@@ -7,7 +7,7 @@ A simple client for [VIES](https://ec.europa.eu/taxation_customs/business/vat/eu
 
 ## Requirements
 
-* PHP >= 7.0 (with [soap](http://se2.php.net/soap) support)
+* PHP >= 7.4 (with [soap](http://se2.php.net/soap) support)
 
 ## Getting started
 
