@@ -4,20 +4,21 @@
   "keywords" :[
     "vat",
     "euro",
-    "webservice"
+    "webservice",
+    "api"
   ],
   "homepage" :"http://github.com/pemedina/checkvat",
   "license" :"BSD",
   "description" :"A simple php wrapper to check foreign VAT IDs using SOAP via http://ec.europa.eu/taxation_customs/vies/checkVatService.wsdl",
   "authors" :[
     {
-      "name" :"pemedina",
-      "email" :"pablo.medina@sysadminonline.com"
+      "name" :"Pablo E. Medina",
+      "email" :"pablo.medina@fastmail.com"
     }
   ],
   "minimum-stability" :"dev",
   "require" :{
-    "php" :">=7.0",
+    "php" :">=7.4",
     "ext-soap" :"*"
   },
   "require-dev" :{
